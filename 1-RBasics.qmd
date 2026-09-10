@@ -1,14 +1,13 @@
 ---
 title: "Worksheet 1: R Basics"
-author: ""
-date: ""
+author: "Madilyn O'Connell"
+date: "09/02/26"
 format:
   html:
     df-print: paged
     toc: true
     toc-depth: 3
     embed-resources: true
-editor: visual
 ---
 
 _This is the first in a series of worksheets for HIST 446 at Ball State University. The goal of these worksheets is simple: practice, practice, practice. The worksheet introduces concepts and techniques and includes prompts for you to practice in this interactive document. When you are finished, you should change the author name (above), commit your changes, push to GitHub, and submit the link to your worksheet repository on Canvas. Don't forget to commit your changes as you go - you should make multiple commits as you work through the worksheet, not just one at the end. Also, remember to update your learning log in the `logs/` folder of your repository as you work through the assignment._
@@ -35,7 +34,10 @@ Numbers can be used to do arithmetic.
 ```
 
 (@) You try, multiple two numbers. 
+```{r}
+2*2
 
+```
 
 (@) Can you multiply two numbers and then divide by the result? 
 
