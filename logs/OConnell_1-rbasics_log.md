@@ -1,8 +1,8 @@
 # Week [X] Learning Log
 
 **Student Name:** Madilyn O'Connell  
-**Week of:** [Date range]  
-**Topic(s):** [e.g., "Data Structures and Loops"]
+**Week of:** 09/07-09/12  
+**Topic(s):** R-Basics, log 1
 
 ---
 

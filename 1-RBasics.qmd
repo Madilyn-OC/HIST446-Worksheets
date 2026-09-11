@@ -40,6 +40,9 @@ Numbers can be used to do arithmetic.
 ```
 
 (@) Can you multiply two numbers and then divide by the result? 
+```{r}
+(4*4)/2
+```
 
 The next type of value is a **string**. Strings are lines of text. Sometimes these are referred to as character vectors. To create a string, you add text between two quotation marks. For example: 
 ```{r}
@@ -48,7 +51,7 @@ The next type of value is a **string**. Strings are lines of text. Sometimes the
 
 (@) Try to create your own string.
 ```{r}
-
+"Hello Ball State!"
 ```
 
 You can't add strings using `+` like you can numbers. But there is a function called `paste()` which concatenates character vectors into one. This function is _very_ useful and one you'll use a lot in a variety of circumstances. Here's what that looks like: 
@@ -59,12 +62,12 @@ paste("Hello", "Ball State Students")
 
 (@) Try it, add two strings together like the above example. 
 ```{r}
-
+paste ("I love", "Ball State")
 ```
 
 (@) Can you explain what happened in 2-3 sentences? 
 
-> 
+> I used the command paste(). I put two strings of textg in the parenthisis separated by a comma. This combined the two statements into one.
 
 The last type are **logical** values like `TRUE` and `FALSE`. (Note that these are all caps.)
 
@@ -104,16 +107,20 @@ Logical Operators allow you to combine or change the results of comparisons.
 ```
 (@) Explain, what does the code on each line above do? 
 
->
+> five is equal to ten, false
+three is less than four, true
+five does not equal ten, true
+five does not equal 5, false
+three does not equal four and 3 does not equal 5, true
 
 (@) Create your own comparison. 
 ```{r}
-
+3*4 <= 24
 ```
 
 (@) Can you write code that checks if a year is between 1970 AND 1980? 
 ```{r}
-
+1975 > 1970 & 1975 < 1980
 ```
 
 ---
@@ -148,12 +155,12 @@ Whatever you prefer, be consistent and your future self will thank you when your
 
 (@) You try, create a variable and assign it a number: 
 ```{r}
-
+x <- 2
 ```
 
 (@) Can you assign a string to a variable?
 ```{r}
-
+x <- "BSU"
 ```
 
 Once we've assigned a variable we can use that variable to run calculations just like we did with raw numbers.
@@ -175,12 +182,13 @@ My.Calculation <- (x + x)*10
 
 (@) You try. Assign a number to x and a number to y. Add those two numbers together.
 ```{r}
-
+x <- 5
+y <- 7
 ```
 
 (@) Can you take `x` and `y` and multiply the result by 5? 
 ```{r}
-
+(x+y)*7
 ```
 
 (@) Try creating two variables with names other than `x ` and `y`. Descriptive names tend to be more useful. Can you multiply the contents of your variables? 
