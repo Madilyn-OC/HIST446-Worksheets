@@ -193,12 +193,16 @@ y <- 7
 
 (@) Try creating two variables with names other than `x ` and `y`. Descriptive names tend to be more useful. Can you multiply the contents of your variables? 
 ```{r}
-
+BSU <- 5
+Charlie <- 10
+BSU*Charlie
 ```
 
 (@) Try creating two variables that store strings. Can you concatenate those two variables together? 
 ```{r}
-
+BSU <- "Let's go!"
+Charlie <- "We fly"
+paste(BSU,Charlie)
 ```
 
 ### Vectors
@@ -238,7 +242,7 @@ my.numbers * 2
 
 (@) Explain in a few sentences, what happened in the code above?
 
->
+> it took the numbers in the vector and multiplied them all seprately by two.
 
 Lets try something slightly different. 
 ```{r}
@@ -247,19 +251,11 @@ my.numbers[3] * 2
 
 (@) Explain in a few sentences, what happened in the code above? 
 
->
+> it tooks the numbres within the vector and multiplied them by 2. However, it combined them all together rather than sepreating the variables on their own.
 
 (@) You try, create a list of five items and store it in a descriptive variable. 
 ```{r}
-
-```
-
-
-### Built In Functions
-
-R also has **built in functions**. We've already used a couple of these: `paste()` and `c()`. But there are others, like `sqrt()` which does what you think it does, finds the square root of a number. 
-```{r}
-sqrt(1000)
+fav.foods <- c("pizza","tacos", "icecream", "pasta", "burgers")
 ```
 
 Many functions have options that can be added to them. For example, the `round()` function allows you to include an option specifying how many digits to round to. 
